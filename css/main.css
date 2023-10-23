@@ -748,24 +748,26 @@ ul#nav li.current a {
 /* 09. =submissions
 /* =================================================================== */
 
-#submissions {
+#submissions, #contact {
 	/*background: #12151B; */
 	padding-top: 60px;
 	padding-bottom: 60px;
 	border-bottom: 1px solid #15191d;
 }
 
-#submissions h4 {
+#submissions h4, #contact #h4 {
 	color: #e6e6e6;
 }
 
-#submissions a {
+#submissions a, #contact a {
 	color: #428bca;
 	text-decoration: underline;
 }
 
 #submissions a:hover,
-#submissions a:focus {
+#submissions a:focus,
+#contact a:hover,
+#contact a:focus{
 	color: #1c4264;
 	text-decoration: underline;
 }
@@ -886,7 +888,7 @@ ul#nav li.current a {
 /**
 /* 13. =contact
 /* =================================================================== */
-#contact {
+#references {
 	background: #111417;
 	padding-top: 60px;
 	padding-bottom: 60px;
@@ -894,22 +896,22 @@ ul#nav li.current a {
 	color: #bfbfbf;
 }
 
-#contact h2,
-#contact h3{
+#references h2,
+#references h3{
 	color: white;
 }
 
-#contact h4 {
+#references h4 {
 	color: #e6e6e6;
 }
 
-#contact a {
+#references a {
 	color: #428bca;
 	text-decoration: underline;
 }
 
-#contact a:hover,
-#contact a:focus {
+#references a:hover,
+#references a:focus {
 	color: #ffffff;
 	text-decoration: underline;
 }
