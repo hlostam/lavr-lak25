@@ -916,6 +916,13 @@ ul#nav li.current a {
 	text-decoration: underline;
 }
 
+#references p {
+    margin: 5px 0 5px 0;
+    font-size: 75%;
+    padding-left: 3em;
+    text-indent: -3em;
+}
+
 /** 
 /* 13. =footer
 /* =================================================================== */
