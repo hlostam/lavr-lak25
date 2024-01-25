@@ -671,6 +671,46 @@ ul#nav li.current a {
 
 }
 
+.dark {
+	background: #111417;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	border-bottom: 1px solid #15191d;
+	color: #bfbfbf;
+}
+
+.dark h2, .dark h3 {
+	color: white;
+}
+
+.dark h4 {
+	margin-bottom: 0px;
+	color: #e6e6e6;
+}
+
+.dark td {
+	padding-right: 15px;
+}
+
+.dark .time {
+	white-space: nowrap;
+}
+
+.dark a {
+	color: #428bca;
+	text-decoration: underline;
+}
+
+.dark a:hover,
+.dark a:focus {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+.dark #comittee{
+	margin-top: 30px;
+}
+
 
 /* 
 /* 07. =hero section
@@ -842,7 +882,7 @@ ul#nav li.current a {
 /* 09. =schedule
 /* =================================================================== */
 
-#schedule {
+/* #schedule {
 	/*background: #12151B; */
 	padding-top: 60px;
 	padding-bottom: 60px;
@@ -857,30 +897,30 @@ ul#nav li.current a {
 #schedule a:hover, #schedule a:focus {
 	color: #1c4264;
 	text-decoration: underline;
-}
+} */
 
 /*
 /* 09. =papersAndSchedule
 /* =================================================================== */
 
-#papersAndSchedule {
+.light {
 	/*background: #12151B; */
 	padding-top: 60px;
 	padding-bottom: 60px;
 	border-bottom: 1px solid #15191d;
 }
 
-#papersAndSchedule h4 {
+.light h4 {
 	color: #e6e6e6;
 }
 
-#papersAndSchedule a {
+.light a {
 	color: #428bca;
 	text-decoration: underline;
 }
 
-#papersAndSchedule a:hover,
-#papersAndSchedule a:focus {
+.light a:hover,
+.light a:focus {
 	color: #1c4264;
 	text-decoration: underline;
 }
